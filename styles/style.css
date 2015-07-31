@@ -1,16 +1,18 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
 
 body {
        
         color:black;
-        background-image:url(http://i.ytimg.com/vi/2XX5zDThC3U/maxresdefault.jpg);
+        background-image:url(http://graphicslava.com/wp-content/uploads/2013/02/Subtle-Patterns-Free-textures-for-your-next-web-project.png);
         background-repeat:no-repeat;
-        background-size:cover;
+        background-size:cover ;
         font-size:22px;
         font-weight:bolder;
 }
 
 img{
     height:500px;
+    border-bottom-right-radius:25%;
 }
     
     h1{
@@ -33,6 +35,13 @@ img{
         font-size:36px;
     }
     
+    p{
+        background-color:white;
+    }
+    
+    p{
+        text-align:center;
+    }
     h3{
         font-style:italic;
         font-size:32px;
@@ -52,28 +61,12 @@ img{
         font-size:150%;
     }
     
-    .nav li {
-   display: inline-block;
- list-style:none;
- height: 25px;
- padding: 10px;
- margin:auto;
-}
-ul.nav {
- margin: 20px;
- padding: 0;
- width: 100%;
- display:block;
- text-align:center;
-}
-.nav li a {
- background-color:LightCyan;
- color: black;
- text-decoration: none;
- padding: 10px 15px;
- float: left;
- width: auto;
- border-right: solid 1px blue;
- text-transform: uppercase;
+
+.favorites p {
+    font-size:20px;
 }
 
+.nav-width {
+    width:700px;
+    margin:auto;
+}
